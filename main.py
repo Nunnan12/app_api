@@ -24,4 +24,4 @@ async def create_data(control: model_con):
     data_json[0].update(resal)
     return resal
 if __name__ == "__main__":
-    uvicorn.run("main:app", host="0.0.0.0", port=8080, reload=True)	
+    uvicorn.run("main:app", host="0.0.0.0", port=32)
